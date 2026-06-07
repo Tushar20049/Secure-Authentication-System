@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <div class="logo">🎉</div>
+
+    <h2 class="welcome">
+        Welcome {{ user }}
+    </h2>
+
+    <div class="user-card">
+
+        <h3>Login Successful</h3>
+
+        <p>
+            You are now logged in to the
+            Secure Authentication System.
+        </p>
+
+    </div>
+
+    <a href="/logout">
+        <button>
+            Logout
+        </button>
+    </a>
+
+</div>
+
+</body>
+</html>
