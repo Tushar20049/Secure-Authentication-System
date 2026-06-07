@@ -20,4 +20,11 @@ A secure authentication web application built using Flask and SQLite.
 
 ```bash
 pip install flask flask-bcrypt
-python app.py# Secure-Authentication-System
+python app.py
+```
+
+## Author
+
+**Tushar Thakre**
+
+GitHub: https://github.com/Tushar20049
